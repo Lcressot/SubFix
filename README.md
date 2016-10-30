@@ -1,7 +1,7 @@
-# SubFix : fix your subtitles
+# SubFix : fix your subtitles !
 
-This little soft operates an affine transformation on a subtitle file (i.e a translation and scale of time) to fix it.
-Just give it 2 text sequences in the subtitle file to fix and the two corresponding times of the video.
+This soft carries out an affine transformation on a subtitle file (i.e a translation and a scale of time) in order to fix it.
+Just give as paramaters 2 text sequences of the subtitle file and the two corresponding times of the video, and the soft will calculate the transformation and fix the file.
 
 Here are the options of the software:
 
@@ -13,4 +13,8 @@ Here are the options of the software:
 - ("s1", "seq1", "first sequence", "" );
 - ("t2", "time2", "second time hh:mm:ss,mms", "" );
 - ("s2", "seq2", "second sequence", "" );
-``
+```
+
+#TODO : 
+- there seem to be format error for the output srt files because they are not recognised by VLC media player. For the moment I copy paste the output to a valid srt file.
+- Some files don't work, why ??
