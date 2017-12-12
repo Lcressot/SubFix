@@ -5,9 +5,9 @@
 It carries out an affine transformation on a subtitle file (i.e a translation and a scale of time) in order to fix it.
 
 + Input : 2 text sequences of the subtitle file, and the 2 corresponding times of the video
-Output : Transformed subtitles file.
++ Output : Transformed subtitles file.
 
-## Use
+## Options
 Here are the options of the software:
 ```c++
 - ("h", "help", "shows option help"); // no default value means boolean options, which default value is false
