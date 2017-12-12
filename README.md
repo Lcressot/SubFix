@@ -1,10 +1,10 @@
 # SubFix : fix your subtitles !
 
 ## Project
-This soft aims at fixing subtitles files (.srt).
++ This soft aims at fixing subtitles files (.srt).
 It carries out an affine transformation on a subtitle file (i.e a translation and a scale of time) in order to fix it.
 
-Input : 2 text sequences of the subtitle file, and the 2 corresponding times of the video
++ Input : 2 text sequences of the subtitle file, and the 2 corresponding times of the video
 Output : Transformed subtitles file.
 
 ## Use
